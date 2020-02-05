@@ -1,0 +1,102 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,700|Lato:300,400,500,700");
+
+
+body{
+  color:#575F7D;
+  background-color: #D0EAF5;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  line-height: 1.6;
+  font-weight: 900 ;
+}
+
+
+
+p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+a {
+  font-size: 15px;
+  text-decoration:none;
+  color: rgba(50, 50, 250, 0.8);
+}
+
+a:hover{
+  color: rgba(250, 0, 0, 0.5);
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+.img-circle{
+  width: 250px;
+  border-radius: 5%;
+}
+
+
+.card-white{
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(10,10,10,0.3);
+  border-radius: 10px;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.btn-blue {
+  padding: 15px 20px;
+  border-radius: 4px;
+  background-color: #BCC6DB
+}
+
+.btn-blue:hover{
+
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.social-media-logo{
+  font-size: 30px;
+}
